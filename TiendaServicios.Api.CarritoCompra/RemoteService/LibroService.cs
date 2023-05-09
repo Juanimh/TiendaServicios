@@ -10,7 +10,7 @@ namespace TiendaServicios.Api.CarritoCompra.RemoteService
         private readonly ILogger _logger;
         public LibroService(IHttpClientFactory httpClient, ILogger<LibroService> logger)
         {
-            _httpClientFactory = httpClient;0
+            _httpClientFactory = httpClient;
             _logger = logger;
         }
 
